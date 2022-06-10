@@ -1,17 +1,14 @@
-<li class="dropdown pc-menu">
-  <a id="user-settings" class="dropdown-toggle" data-toggle="dropdown" href="#">
+<li class=" nav-item dropdown pc-menu">
+  <a id="user-settings" class=" nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" aria-expanded="false">
     <span id="user-name"><%= current_user.name %></span>
     <span class="caret"></span>
   </a>
 
  
-  <ul class="dropdown-menu" role="menu" aria-labelledby="user-settings">
+  <ul class="dropdown-menu" aria-labelledby="user-settings">
      <li><%= link_to 'Edit Profile', edit_user_registration_path %></li>
      <li><%= link_to 'Log out', destroy_user_session_path, method: :delete %></li>
   </ul>
-
-  <li><%= link_to 'Edit Profile', edit_user_registration_path %></li>
-  <li><%= link_to 'Log out', destroy_user_session_path, method: :delete %></li>
 
 </li>
 
