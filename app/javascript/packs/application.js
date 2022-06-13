@@ -7,6 +7,7 @@ require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
 require("@popperjs/core")
+require ("jquery")
 
 // Import the specific modules you may need (Modal, Alert, etc)
 import { Tooltip, Popover } from "bootstrap"
