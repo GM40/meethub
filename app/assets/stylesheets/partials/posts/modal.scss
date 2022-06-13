@@ -8,6 +8,11 @@
     .posted-by {
       color: rgba(0,0,0,0.5);
     }
+    .header-close {
+      background-color:white; 
+      border: none;
+      float: left;
+    }
 }
   
 .modal-content {
@@ -18,6 +23,11 @@
       padding: 0 10px;
       .posted-by {
         margin: 0;
+      }
+      .header-close {
+        background-color:white; 
+        border: none;
+        float: left;
       }
     }
 }
